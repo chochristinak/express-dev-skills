@@ -22,10 +22,6 @@ function updateOne(id, skillChange) {
     targetSkill.skill = skillChange
     console.log(targetSkill, skills)
 }
-//     const idx = skills.findIndex(skill => skill.id === id)
-//     skills.toSpliced(idx, 1, updateSkill);
-//     console.log(skills)
-
    
 function deleteOne (id){
     id = parseInt(id)
